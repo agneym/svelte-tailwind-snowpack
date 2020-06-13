@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "test": "jest"
+  },
+  "dependencies": {
+    "svelte": "^3.21.0"
+  },
+  "devDependencies": {
+    "@snowpack/app-scripts-svelte": "^1.2.0",
+    "@testing-library/jest-dom": "^5.5.0",
+    "@testing-library/svelte": "^3.0.0",
+    "jest": "^25.4.0",
+    "snowpack": "^2.5.0"
+  }
+}
