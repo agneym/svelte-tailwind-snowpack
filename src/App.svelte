@@ -5,26 +5,10 @@
 </script>
 
 <style>
-	.App-header {
-		background-color: #F9F6F6;
-		color: #333;
-		min-height: 100vh;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		font-size: calc(10px + 2vmin);
-	}
-	.App-link {
-		color: #ff3e00;
-	}
 	.App-logo {
-		height: 40vmin;
-		pointer-events: none;
-		margin-bottom: 1.0rem;
-		animation: App-logo-spin infinite 1.6s ease-in-out alternate;
+		animation: App-logo-scale infinite 1.6s ease-in-out alternate;
 	}
-	@keyframes App-logo-spin {
+	@keyframes App-logo-scale {
 		from {
 			transform: scale(1);
 		}
@@ -34,14 +18,14 @@
 	}
 </style>
 
-<div class="text-center">
-	<header class="App-header">
-		<img src="/logo.svg" class="App-logo" alt="logo" />
+<div class="text-center font-serif">
+	<header class="bg-gray-100 h-screen flex justify-center items-center flex-col text-3xl">
+		<img src="/logo.svg" class="App-logo pointer-events-none m-4 h-64" alt="logo" />
 		<p>
 			Edit <code>src/App.svelte</code> and save to reload.
 		</p>
 		<a
-			class="text-orange-400"
+			class="text-orange-500"
 			href="https://svelte.dev"
 			target="_blank"
 			rel="noopener noreferrer"
