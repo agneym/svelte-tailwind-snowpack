@@ -5,13 +5,27 @@
     "test": "jest"
   },
   "dependencies": {
-    "svelte": "^3.21.0"
+    "svelte": "^3.21.0",
+    "tailwindcss": "^1.4.6"
   },
   "devDependencies": {
     "@snowpack/app-scripts-svelte": "^1.2.0",
     "@testing-library/jest-dom": "^5.5.0",
     "@testing-library/svelte": "^3.0.0",
+    "autoprefixer": "^9.8.0",
+    "husky": "^4.2.5",
     "jest": "^25.4.0",
+    "lint-staged": "^10.2.10",
+    "postcss-cli": "^7.1.1",
+    "prettier": "2.0.5",
     "snowpack": "^2.5.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,css,md}": "prettier --write"
   }
 }

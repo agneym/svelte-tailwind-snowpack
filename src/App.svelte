@@ -1,4 +1,6 @@
 <script>
+	import TailwindStyles from './TailwindStyles.svelte';
+	
 	const message = 'Learn Svelte';
 </script>
 
