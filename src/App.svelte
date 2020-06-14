@@ -5,13 +5,6 @@
 </script>
 
 <style>
-	:global(body) {
-		margin: 0;
-		font-family: Arial, Helvetica, sans-serif;
-	}
-	.App {
-		text-align: center;
-	}
 	.App-header {
 		background-color: #F9F6F6;
 		color: #333;
@@ -41,14 +34,14 @@
 	}
 </style>
 
-<div class="App">
+<div class="text-center">
 	<header class="App-header">
 		<img src="/logo.svg" class="App-logo" alt="logo" />
 		<p>
 			Edit <code>src/App.svelte</code> and save to reload.
 		</p>
 		<a
-			class="App-link"
+			class="text-orange-400"
 			href="https://svelte.dev"
 			target="_blank"
 			rel="noopener noreferrer"
