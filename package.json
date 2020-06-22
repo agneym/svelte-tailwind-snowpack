@@ -1,4 +1,11 @@
 {
+  "name": "svelte-tailwind-snowpack",
+  "version": "0.0.0",
+  "author": {
+    "name": "Agney Menon",
+    "email": "agney@outlook.in"
+  },
+  "keywords": ["csa-template"],
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",
