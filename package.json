@@ -14,23 +14,23 @@
     "test": "jest"
   },
   "dependencies": {
-    "svelte": "^3.21.0",
-    "tailwindcss": "^1.4.6"
+    "svelte": "^3.24.1",
+    "tailwindcss": "^1.7.5"
   },
   "devDependencies": {
-    "@snowpack/app-scripts-svelte": "^1.2.0",
-    "@testing-library/jest-dom": "^5.5.0",
+    "@snowpack/app-scripts-svelte": "^1.8.4",
+    "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/svelte": "^3.0.0",
-    "autoprefixer": "^9.8.0",
+    "autoprefixer": "^9.8.6",
     "husky": "^4.2.5",
-    "jest": "^25.4.0",
-    "lint-staged": "^10.2.10",
+    "jest": "^26.4.2",
+    "lint-staged": "^10.2.13",
     "postcss": "^7.0.32",
     "postcss-cli": "^7.1.1",
     "postcss-load-config": "^2.1.0",
-    "prettier": "2.0.5",
-    "snowpack": "^2.5.0",
-    "svelte-preprocess": "^3.9.7"
+    "prettier": "^2.1.1",
+    "snowpack": "^2.9.3",
+    "svelte-preprocess": "^4.1.1"
   },
   "husky": {
     "hooks": {
