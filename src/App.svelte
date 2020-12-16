@@ -1,5 +1,5 @@
 <script>
-	import TailwindStyles from './TailwindStyles.svelte';
+	import './TailwindStyles.svelte';
 	
 	const message = 'Learn Svelte';
 </script>
