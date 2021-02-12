@@ -1,23 +1,18 @@
 /** @type {import("snowpack").SnowpackUserConfig } */
 module.exports = {
   mount: {
-    public: "/",
-    src: "/_dist_",
+    "src": {url: "/_dist_"},
+    // Mount "public" to the root URL path ("/*") and serve files with zero transformations
+    "public": {url: "/", static: true, resolve: false}
   },
   plugins: ["@snowpack/plugin-svelte", "@snowpack/plugin-dotenv"],
-  install: [
-    /* ... */
-  ],
-  installOptions: {
+  packageOptions: {
     /* ... */
   },
   devOptions: {
     /* ... */
   },
   buildOptions: {
-    /* ... */
-  },
-  proxy: {
     /* ... */
   },
   alias: {
