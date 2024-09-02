@@ -14,7 +14,7 @@
     "test": "web-test-runner \"src/**/*.test.js\""
   },
   "dependencies": {
-    "svelte": "^3.49.0",
+    "svelte": "^4.2.19",
     "tailwindcss": "^2.0.1"
   },
   "devDependencies": {
